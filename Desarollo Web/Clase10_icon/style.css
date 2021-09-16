@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "STARWARS";
+    src:
+        url("assets/STARWARS.eot") format("eot"),
+        url("assets/STARWARS.woff") format("woff"),
+        url("assets/STARWARS.ttf") format("truetype"),
+        url("assets/STARWARS.svg") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+*{
+    margin: 0;
+    padding: 1%;
+}
+h1{
+    font-family: "STARWARS", sans-serif;
+    font-size: 1.5em;
+}
+main{
+    background-color: var(--main-dark-color);
+}
+:root{
+    --main-dark-color: #252422;
+    --main-dark-grey-color: #403D39;
+    --main-medium-grey-color: #CCC5B9;
+    --main-light-grey-color: #FFFCF2;
+    --main-orange-color: #EB5E28;
+}
+p, li, buttom{
+    font-family: 'Exo 2', sans-serif;;
+}
+header{
+    display: flex;
+    align-content: space-between;
+    background-color: var(--main-dark-grey-color);
+}
+header a{
+    text-decoration: none;
+    color: var(--main-light-grey-color);
+    font-size: 1.7em;
+}
+.menu{
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: var(--main-dark-grey-color);
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 5;
+    top: 35px;
+    right: -30px;
+}
+.menu:hover .dropdown{
+    display: block;
+}
+.dropdown li{
+    list-style: none;
+}

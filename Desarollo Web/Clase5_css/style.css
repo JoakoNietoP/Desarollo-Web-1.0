@@ -1,0 +1,46 @@
+/* . significa una class */
+/* #id con esto es preciso pero grande */
+body{
+    background: lightblue;
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+}
+h1{
+    color: mediumblue;
+    font-size: 4rem;
+}
+header{
+    background-position: center;
+    font-size: 72px;
+}
+main{
+    background: lemonchiffon;
+    font-size: 16px;
+}
+.primera{
+    background: gray;
+    font-size: 1em;
+}
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px auto;
+}
+footer, a:hover{
+    color: gray;
+}
+.send{
+    color: rosybrown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    background-color: teal;
+    border-radius: 1em;
+}
+
+.send:hover{
+    color: green;
+    background-color:yellow ;
+}
