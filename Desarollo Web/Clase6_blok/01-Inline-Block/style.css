@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+}
+div { 
+    background-color: rgb(197, 187, 173);
+    padding: 2%;
+    margin: 3%;
+    border-radius: 15px;
+}
+
+p {
+    background-color: teal;
+}
+p span {
+    background-color: slategray;
+}
+
+/* padding margen hacia dentro, margin margen hacia afuera */
+.soyInline {
+    display: inline;
+}
+
+.soyInlineBlock {
+    display: inline-block;
+    /* background-color: tomato; */
+}
