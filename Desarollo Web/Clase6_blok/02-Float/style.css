@@ -1,3 +1,16 @@
-* {
-    background-color: thistle;
+div {
+    background-color: skyblue;
+    padding: 3%;
+    width: 30%;
+}
+
+.izq {
+    float: left;
+}
+
+.der {
+    float: right;
+}
+p {
+    background-color: steelblue;
 }
