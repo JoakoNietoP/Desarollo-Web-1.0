@@ -11,8 +11,16 @@ div {
 p {
     background-color: teal;
 }
+p span {
+    background-color: slategray;
+}
+
 /* padding margen hacia dentro, margin margen hacia afuera */
-p.soyInline {
+.soyInline {
     display: inline;
 }
 
+.soyInlineBlock {
+    display: inline-block;
+    /* background-color: tomato; */
+}
