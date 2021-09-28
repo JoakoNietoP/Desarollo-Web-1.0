@@ -1,3 +1,18 @@
-body{
+body {
     background-color: aqua;
 }
+div { 
+    background-color: rgb(197, 187, 173);
+    padding: 2%;
+    margin: 3%;
+    border-radius: 15px;
+}
+
+p {
+    background-color: teal;
+}
+/* padding margen hacia dentro, margin margen hacia afuera */
+p.soyInline {
+    display: inline;
+}
+
