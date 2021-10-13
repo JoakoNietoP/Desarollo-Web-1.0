@@ -110,9 +110,56 @@
 
     <div class="suscribe">
         <h2>Suscribite para recibir todas las Noticias de Metropolis!</h2>
+        <form action="/" method="GET">
+
+            <h3>Datos de contacto:</h3>
+            <label class="userInfo"> Tu nombre:
+                <input type="text" name="suscriberName" placeholder="Clark" required>
+            </label>
+            <label class="userInfo"> Tu apellido:
+                <input type="text" name="suscriberName" placeholder="Kent" required>
+            </label>
+            <label class="userInfo"> Tu email:
+                <input type="text" name="suscriberName" placeholder="notsuperman@dailyplanet.com" required>
+            </label>
+            <h3>Ciudad de Origen</h3>
+            <select name="city">
+                <option class="cityText" value="metropolis">metropolis</option>
+                <option class="cityText" value="smallville">smallville</option>
+                <option class="cityText" value="gotham">gotham</option>
+                <option class="cityText" value="central">central city</option>
+                <option class="cityText" value="fawcett">fawcett</option>
+                <option class="cityText" value="other">otra</option>
+            </select>
+
+            <h3>Tipo de suscripcion deseada:</h3>
+            <label class="userType">
+                <input type="radio" name="suscriptionType" id="valor1" value="1">Basic
+            </label>
+            <label class="userType">
+                <input type="radio" name="suscriptionType" id="valor2" value="2">Advanced
+            </label>
+            <label class="userType">
+                <input type="radio" name="suscriptionType" id="valor3" value="3" checked>Premium
+            </label>
+
+
+            <p>Qué suscripcion es para mí?
+                <a href="./info.html">
+                    <strong>Hacé click para más información!</strong>
+                </a>
+            </p>
+
+            <button>Suscribirse!!</button>
+        </form>
     </div>
 
-    <footer></footer>
+    <footer>
+        <p>Daily planet no es propiedad registrada de superman &copy; Metropolis 1932.</p>
+        <p>Hecho por Pam para 
+            <a href="https://plataforma.nucba.io/c/1617-codingbootcamp" target="_blank">Nucba</a>
+        </p>
+    </footer>
 
 
 </body>

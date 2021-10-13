@@ -4,7 +4,7 @@
 * {
     padding: 1%;
     margin: 0;
-    font-family: 'Open Sans','Time new Romans', sans-serif;
+    font-family: 'Open Sans', 'Time new Romans', sans-serif;
 }
 
 img {
@@ -20,7 +20,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1,3em;
+    font-size: 1, 3em;
 }
 
 
@@ -55,6 +55,7 @@ header img {
 ul {
     text-align: center;
 }
+
 .navList {
     display: inline;
     text-transform: capitalize;
@@ -103,7 +104,7 @@ main .newsContent {
 }
 
 main .newsContent p {
-    padding-right:0 1%;
+    padding-right: 0 1%;
     text-align: justify;
 }
 
@@ -123,4 +124,48 @@ aside .ads {
 
 aside img {
     width: 90%;
+}
+
+
+/* form */
+
+.suscribe {
+    margin: auto;
+    border-top: 3px solid black;
+    background-color: rgb(221, 221, 221);
+    padding: 2% 0 2% 10%;
+    /* shadow es x, y, blur, effect(?) y color  */
+    box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.3);
+    /* recomendable usar generador de sombras automatico */
+    margin-bottom: 3%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label.userInfo {
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+}
+
+form input,
+form select {
+    padding: 12px 20px;
+    width: 80%;
+}
+
+form label.userType {
+    width: 25%;
+}
+
+form button {
+    width: 20%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.3);
 }
