@@ -1,9 +1,9 @@
-body{
-    background: rgb(238,174,202);
-    background: radial-gradient(
-        circle,
-         rgba(238,174,202,1) 0%,
-         rgba(148,187,233,1) 100%),
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+        326deg,
+         rgba(131, 58, 180, 1) 0%, 
+         rgb(190, 61, 61) 50%, 
+         rgba(252, 176, 69, 1) 100%),
          no-repeat;
-    
 }
